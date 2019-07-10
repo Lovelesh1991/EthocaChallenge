@@ -53,7 +53,6 @@ public class OrderPageActions extends Base {
 	 * @return
 	 */
 	public boolean clickproceedToCheckOutButton() {
-		System.out.println("Navigated to Proceed");
 		scrollUp(300);
 		return myOrderPage.clickproceedToCheckOutButton();
 
@@ -65,7 +64,6 @@ public class OrderPageActions extends Base {
 	 * @return
 	 */
 	public boolean setCreateAccountEmail(String Email) {
-		System.out.println("Here set");
 		scrollUp(250);
 		return  myOrderPage.setCreateAccountEmail(Email);
 
