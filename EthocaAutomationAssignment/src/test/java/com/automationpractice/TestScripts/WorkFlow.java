@@ -82,7 +82,7 @@ public class WorkFlow extends Base {
 		assertTrue(productPageActions.selectQuickViewOfaProduct(ProductName), "Step 4");
 		driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
 		assertTrue(quickViewActions.addProductQuickView(Qty, Size), "Step 5");
-		quickViewActions.clickContinueShoppingButton();
+		assertTrue(quickViewActions.clickContinueShoppingButton(),"Step 6");
 		driver.switchTo().defaultContent();
 		assertTrue(myStoreActions.checkOut(), "Step 7");
 		assertTrue(orderPageActions.clickproceedToCheckOutButton(), "Step 8");

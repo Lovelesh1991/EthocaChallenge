@@ -2371,3 +2371,12 @@ Session ID: db63ddc8b673990de7de4358817de728
 18:24:54.504 [main] INFO  com.automationpractice.resources.Base - *****************CheckOutButton is visible.***************
 18:24:55.987 [main] INFO  com.automationpractice.resources.Base - *******************Scrolling Down*********************************************
 18:25:26.975 [main] INFO  com.automationpractice.resources.Base - ##############Exception occured while executing method checkIfElementExistAndVisible###########: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='processAddress']//span[contains(text(),'Proceed to checkout')]' (tried for 20 second(s) with 500 milliseconds interval)
+13:51:12.756 [main] INFO  com.automationpractice.resources.Base - ***************Browser Succesfully InitiatedChrome***************
+13:51:12.818 [main] INFO  com.automationpractice.resources.Base - Driver is Initialized
+13:51:29.599 [main] INFO  com.automationpractice.resources.Base - Navigated to Landing Page
+07:12:27.584 [main] INFO  com.automationpractice.resources.Base - ***************Browser Succesfully InitiatedChrome***************
+07:12:27.665 [main] INFO  com.automationpractice.resources.Base - Driver is Initialized
+07:12:32.213 [main] INFO  com.automationpractice.resources.Base - Navigated to Landing Page
+19:20:02.034 [main] INFO  com.automationpractice.resources.Base - ***************Browser Succesfully InitiatedChrome***************
+19:20:02.329 [main] INFO  com.automationpractice.resources.Base - Driver is Initialized
+19:20:16.549 [main] INFO  com.automationpractice.resources.Base - Navigated to Landing Page
