@@ -43,6 +43,7 @@ public class Base {
 					"D:\\EthocaAutomationAssignment\\EthocaAutomationChallenge\\src\\main\\java\\com\\automationpractice\\resources\\data.properties");
 
 			prop.load(fis);
+			System.out.println("Checking Jenkins");
 			String browserName = prop.getProperty("Browser");
 		
 			
