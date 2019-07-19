@@ -48,7 +48,7 @@ public class Base {
 			
 
 			if (browserName.equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\com\\automationpractice\\resources\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Executables\\chromedriver.exe");
 				driver = new ChromeDriver();
 				// execute in chrome driver
 
