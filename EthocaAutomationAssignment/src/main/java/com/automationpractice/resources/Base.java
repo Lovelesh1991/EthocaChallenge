@@ -44,6 +44,7 @@ public class Base {
 
 			prop.load(fis);
 			System.out.println("Checking Jenkins");
+			System.out.println("Checking Jenkins");
 			String browserName = prop.getProperty("Browser");
 		
 			
